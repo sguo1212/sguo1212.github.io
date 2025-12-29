@@ -10,13 +10,21 @@ nav {
   margin-bottom: 30px;
 }
 
+nav li {
+  float: left;
+  border-right: 1px solid #bbbbbb;
+}
+
+nav li:last-child {
+  border-right: none;
+}
+
 nav a {
   text-decoration: none;
   color: #333;
   font-weight: 600;
 }
 nav button {
-  padding: 8px 16px;
   cursor: pointer;
 }
 
