@@ -11,20 +11,22 @@ nav {
   margin-bottom: 30px;
 }
 
-nav a {
-  text-decoration: none;
+nav button {
+  background: none;
+  border: none;
   color: #EDC5C7;
   font-weight: 600;
   padding-right: 20px;
   border-right: 1px solid #bbb;
-}
-nav a:last-child {
-  border-right: none;
-}
-nav button {
   cursor: pointer;
 }
 
+nav button:last-child {
+  border-right: none;
+}
+nav button:hover {
+  color: #A93F55;
+}
 
 section {
   background:#EDC5C7;
