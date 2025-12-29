@@ -7,12 +7,12 @@ body {
 }
 
 section {
-  background: #E8D6CB;
+  background: #DAD0CA;
   padding: 20px;
   margin-bottom: 20px;
   border-radius: 8px;
 }
 
-h1, h2 {
+h1, h2, p {
   color: #5D2E46;
 }
