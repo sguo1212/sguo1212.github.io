@@ -32,5 +32,16 @@
       <h2>Contact</h2>
       <p>Email me at: sophia.guo.1212@gmail.com</p>
     </section>
+    <script>
+      function showSection(sectionId) {
+        const sections = document.querySelectorAll('section');
+        sections.forEach(section => {
+          section.style.display = section.id === sectionId ? 'block' : 'none';
+        });
+      }
+
+      // Show the About section by default
+      showSection('about');
+    </script>
   </body>
 </html>
