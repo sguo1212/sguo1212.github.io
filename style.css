@@ -3,16 +3,16 @@ body {
   max-width: 800px;
   margin: auto;
   padding: 40px;
-  background: #c6abab;
+  background: #d0ada7;
 }
 
 section {
-  background: white;
+  background: #E8D6CB;
   padding: 20px;
   margin-bottom: 20px;
   border-radius: 8px;
 }
 
 h1, h2 {
-  color: #695353;
+  color: #5D2E46;
 }
