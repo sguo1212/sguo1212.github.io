@@ -3,7 +3,7 @@ body {
   max-width: 800px;
   margin: auto;
   padding: 40px;
-  background: #19323C;
+  background: #1A213D;
 }
 
 section {
@@ -14,12 +14,12 @@ section {
 }
 
 h1 {
-  color: #A93F55;
+  color: #EDC5C7;
 }
 
 h2 {
-  color:#EDC5C7;
+  color:#A93F55;
 }
 p, li {
-  color: #19323C;
+  color: #1A213D;
 }
