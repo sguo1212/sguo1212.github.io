@@ -3,19 +3,23 @@ body {
   max-width: 800px;
   margin: auto;
   padding: 40px;
-  background: #3D2D2B;
+  background: #19323C;
 }
 
 section {
-  background:#E5C2C0;
+  background:#EDC5C7;
   padding: 20px;
   margin-bottom: 20px;
   border-radius: 8px;
 }
 
-h1, h2{
-  color:#477998
+h1 {
+  color: #A93F55;
+}
+
+h2 {
+  color:#EDC5C7;
 }
 p, li {
-  color: #3D2D2B;
+  color: #19323C;
 }
