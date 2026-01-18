@@ -2,13 +2,13 @@
 body {
   font-family: 'Inter', sans-serif;
   margin: 0;
-  background: #1A213D;
+  background: #FFFAF2;
 }
 
 /* ===== FULL-WIDTH TOP BAR ===== */
 .top-bar {
   width: 100%;
-  background-color: #11162f; /* dark navy header */
+  background-color: #DBCEC1; /* dark navy header */
 }
 
 .top-bar-content {
