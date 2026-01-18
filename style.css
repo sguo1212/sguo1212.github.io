@@ -8,9 +8,8 @@ body {
 /* ===== FULL-WIDTH TOP BAR ===== */
 .top-bar {
   width: 100%;
-  background-color: #DBCEC1; /* dark navy header */
+  background-color: #DBCEC1; 
 }
-
 .top-bar-content {
   max-width: 800px;
   margin: auto;
@@ -18,12 +17,12 @@ body {
 }
 
 .top-bar-content h1 {
-  color: #EDC5C7;
+  color: #56494C;
   margin: 0;
 }
 
 .top-bar-content p {
-  color: #EDC5C7;
+  color: #56494C;
   margin-top: 8px;
   margin-bottom: 20px;
 }
@@ -38,7 +37,7 @@ nav {
 nav button {
   background: none;
   border: none;
-  color: #EDC5C7;
+  color: #FFFAF2;
   font-weight: 600;
   padding-right: 20px;
   border-right: 1px solid #bbb;
@@ -50,7 +49,7 @@ nav button:last-child {
 }
 
 nav button:hover {
-  color: #A93F55;
+  color: #56494C;
 }
 
 /* ===== PAGE CONTENT ===== */
@@ -79,11 +78,11 @@ section {
 
 /* ===== TEXT ===== */
 h2 {
-  color: #A93F55;
+  color: #818263;
 }
 
 p, li {
-  color: #1A213D;
+  color: #56494C;
 }
 
 .pink-text {
