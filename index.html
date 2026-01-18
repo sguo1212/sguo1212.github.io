@@ -8,43 +8,49 @@
 
   <body>
 
-    <!-- ===== TOP BAR ===== -->
+    <!-- ===== FULL-WIDTH TOP BAR ===== -->
     <header class="top-bar">
-      <nav>
-        <button onclick="showSection('about')">About</button>
-        <button onclick="showSection('projects')">Projects</button>
-        <button onclick="showSection('contact')">Contact</button>
-      </nav>
-      <h1>Sophia Guo</h1>
-      <p class="pink-text">Engineering Student at McMaster University</p>
+      <div class="top-bar-content">
+        <h1>Sophia Guo</h1>
+        <p class="pink-text">Engineering Student at McMaster University</p>
 
+        <nav>
+          <button onclick="showSection('about')">About</button>
+          <button onclick="showSection('projects')">Projects</button>
+          <button onclick="showSection('contact')">Contact</button>
+        </nav>
+      </div>
     </header>
 
-    <!-- ===== SECTIONS ===== -->
-    <section id="about">
-      <h2>About Me</h2>
-      <img src="images/portrait.jpg" alt="My photo" class="profile-pic">
-      <p>
-        I am currently an Engineering 1 Student at McMaster University, with hopes of pursuing Mechatronics Engineering.
-        I chose Engineering at McMaster as it aligned best with my interests in STEM, and provided me with the freedom
-        to experience the program in a broader scope before specializing. Through the next few years, I aim to
-        challenge myself to the fullest and make a strong impact both in and outside of the school community.
-        In my free time, I enjoy journaling, playing the guitar and snowboarding. Feel free to reach out!
-      </p>
-    </section>
+    <!-- ===== CENTERED PAGE CONTENT ===== -->
+    <main class="page-content">
 
-    <section id="projects">
-      <h2>Projects</h2>
-      <ul>
-        <li>Personal website</li>
-        <li>Cool school project</li>
-      </ul>
-    </section>
+      <section id="about">
+        <h2>About Me</h2>
+        <img src="images/portrait.jpg" alt="My photo" class="profile-pic">
+        <p>
+          I am currently an Engineering 1 Student at McMaster University, with hopes of pursuing Mechatronics Engineering.
+          I chose Engineering at McMaster as it aligned best with my interests in STEM, and provided me with the freedom
+          to experience the program in a broader scope before specializing. Through the next few years, I aim to
+          challenge myself to the fullest and make a strong impact both in and outside of the school community.
+          In my free time, I enjoy journaling, playing the guitar and snowboarding. Feel free to reach out!
+        </p>
+      </section>
 
-    <section id="contact">
-      <h2>Contact</h2>
-      <p>Email me at: sophia.guo.1212@gmail.com</p>
-    </section>
+      <section id="projects">
+        <h2>Projects</h2>
+        <ul>
+          <li>Personal website</li>
+          <li>Cool school project</li>
+        </ul>
+      </section>
+
+      <section id="contact">
+        <h2>Contact</h2>
+        <p>Email me at: sophia.guo.1212@gmail.com</p>
+      </section>
+
+    </main>
 
     <!-- ===== SCRIPT ===== -->
     <script>
