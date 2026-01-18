@@ -71,7 +71,7 @@ h1 {
   font-family: 'Fraunces', serif;
   color: #56494C;
   margin-bottom: 10px;
-  font-size: 96px;
+  font-size: 80px;
 }
 h2 {
   font-family: 'Fraunces', serif;
@@ -84,6 +84,15 @@ p, li {
 
 .pink-text {
   color: #EDC5C7;
+}
+
+.home {
+  height: 60vh; /* make it tall but not full screen */
+  display: flex;
+  flex-direction: column;
+  justify-content: center; /* vertical center */
+  align-items: center;     /* horizontal center */
+  text-align: center;
 }
 
 /* ===== ANIMATION ===== */
