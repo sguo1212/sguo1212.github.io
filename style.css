@@ -24,14 +24,14 @@ body {
 .top-bar-content p {
   color: #56494C;
   margin-top: 8px;
-  margin-bottom: 20px;
+  margin-bottom: 8px;
 }
 
 /* ===== NAV ===== */
 nav {
   display: flex;
   gap: 20px;
-  margin-bottom: 0; /* remove extra space */
+  margin-bottom: 20px; /* remove extra space */
 }
 
 nav button {
