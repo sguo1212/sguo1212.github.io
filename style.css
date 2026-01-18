@@ -5,10 +5,30 @@ body {
   padding: 40px;
   background: #1A213D;
 }
+
+/* ===== TOP BAR ===== */
+.top-bar {
+  background-color: #11162f;
+  padding: 30px;
+  border-radius: 12px;
+  margin-bottom: 40px;
+}
+
+.top-bar h1 {
+  color: #EDC5C7;
+  margin: 0;
+}
+
+.top-bar p {
+  margin-top: 8px;
+  margin-bottom: 20px;
+  color: #EDC5C7;
+}
+
+/* ===== NAV ===== */
 nav {
   display: flex;
   gap: 20px;
-  margin-bottom: 30px;
 }
 
 nav button {
@@ -24,12 +44,14 @@ nav button {
 nav button:last-child {
   border-right: none;
 }
+
 nav button:hover {
   color: #A93F55;
 }
 
+/* ===== SECTIONS ===== */
 section {
-  background:#EDC5C7;
+  background: #FFFAF2;
   padding: 40px;
   margin-top: 40px;
   margin-bottom: 20px;
@@ -38,26 +60,27 @@ section {
   animation: fadeIn 0.3s ease;
 }
 
+/* ===== IMAGE ===== */
 .profile-pic {
   width: 300px;
   border-radius: 10px;
 }
 
-@keyframes fadeIn {
-  from { opacity: 0; }
-  to { opacity: 1; }
-}
-
-h1 {
-  color: #EDC5C7;
-}
-
+/* ===== TEXT ===== */
 h2 {
-  color:#A93F55;
+  color: #A93F55;
 }
+
 p, li {
   color: #1A213D;
 }
+
 .pink-text {
   color: #EDC5C7;
+}
+
+/* ===== ANIMATION ===== */
+@keyframes fadeIn {
+  from { opacity: 0; }
+  to { opacity: 1; }
 }
