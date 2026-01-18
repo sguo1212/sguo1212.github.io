@@ -38,6 +38,11 @@ section {
   animation: fadeIn 0.3s ease;
 }
 
+.profile-pic {
+  width: 300px;
+  border-radius: 10px;
+}
+
 @keyframes fadeIn {
   from { opacity: 0; }
   to { opacity: 1; }
