@@ -16,15 +16,6 @@ body {
   padding: 40px;
 }
 
-.top-bar-content h1 {
-  color: #56494C;
-  margin: 0;
-}
-
-.top-bar-content p {
-  color: #56494C;
-}
-
 /* ===== NAV ===== */
 nav {
   display: flex;
@@ -80,6 +71,7 @@ h1 {
   font-family: 'Fraunces', serif;
   color: #56494C;
   margin-bottom: 10px;
+  font-size: large;
 }
 h2 {
   font-family: 'Fraunces', serif;
