@@ -3,12 +3,12 @@ body {
   max-width: 800px;
   margin: auto;
   padding: 40px;
-  background: #1A213D;
+  background: #FFFAF2;
 }
 
 /* ===== TOP BAR ===== */
 .top-bar {
-  background-color: #11162f;
+  background-color: #EFD7CF;
   padding: 30px;
   border-radius: 12px;
   margin-bottom: 40px;
