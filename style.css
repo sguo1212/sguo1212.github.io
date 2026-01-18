@@ -39,6 +39,7 @@ nav button {
   border: none;
   color: #FFFAF2;
   font-weight: 600;
+  font-family: 'Inter', sans-serif;
   padding-right: 20px;
   border-right: 1px solid #bbb;
   cursor: pointer;
